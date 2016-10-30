@@ -24,8 +24,8 @@ interface AppState {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  iframes: Observable<Array<string>>;
-  chatLog: Observable<Array<Object>>;
+  iframes: Observable<any>;
+  chatLog: Observable<any>;
   iframeCount: number;
   constructor(private store: Store<AppState>){
     this.iframes = store.select('iframes');
