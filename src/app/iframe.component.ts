@@ -1,4 +1,4 @@
-/// <reference path="../typings/index.d.ts" />
+
 
 import { Component, Input, Output } from '@angular/core';
 import { ChangeDetectionStrategy, EventEmitter } from '@angular/core/index';
